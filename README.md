@@ -10,5 +10,6 @@ Please come back to the website later.
 
 This site is maintained by:
 Naoki Nariai
-nariai@megabank.tohoku.ac.jp
+
+nariai [at] megabank.tohoku.ac.jp
 
