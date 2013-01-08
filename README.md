@@ -1,3 +1,4 @@
+=====
 TIGAR
 =====
 
@@ -5,11 +6,21 @@ Transcript isoform abundance estimation method with gapped alignment of RNA-Seq 
 
 by Naoki Nariai, Osamu Hirose, Kaname Kojima and Masao Nagasaki
 
-The software will be available upon publication of the submitted manuscript.
-Please come back to the website later.
+<pre>
+Example: java -jar Tigar.jar Tigar <FASTA> <SAM> <OUT> --thread_num 1 --alpha_zero 0.001
+ FASTA            : reference FASTA file
+ SAM              : target SAM/BAM file (if the SAM file does not exist, then
+                    create the SAM file)
+ OUT              : output file
+ --alpha_zero N   : tuning parameter alpha_zero
+ --bowtiepath VAL : path of bowtie. default = undef
+ --inputFastq VAL : input fastq
+ --thread_num N   : number of thread
+</pre>
 
 This site is maintained by:
-Naoki Nariai
-
+Naoki Nariai<br>
+<br>
+Contact:<br>
 nariai [at] megabank.tohoku.ac.jp
 
