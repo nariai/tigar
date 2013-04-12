@@ -7,15 +7,15 @@ Transcript isoform abundance estimation method with gapped alignment of RNA-Seq 
 by Naoki Nariai, Osamu Hirose, Kaname Kojima and Masao Nagasaki
 
 <pre>
-Example: java -jar Tigar.jar FASTA SAM OUT --thread_num 1 --alpha_zero 0.1
- FASTA            : reference FASTA file
- SAM              : target SAM/BAM file (if the SAM file does not exist, then
-                    create the SAM file)
- OUT              : output file
- --alpha_zero N   : tuning parameter alpha_zero
- --bowtiepath VAL : path of bowtie. default = undef
- --inputFastq VAL : input fastq
- --thread_num N   : number of thread
+ Example: java -jar Tigar.jar <FASTA> <SAM> <OUT> --alpha_zero <DOUBLE> --is_paired <INT> --polyA <INT>
+ FASTA          : reference FASTA file
+ SAM            : target SAM/BAM file
+ OUT            : output file
+ --alpha_zero N : tuning parameter alpha_zero
+ --is_paired N  : paired-end data. default = 0 (false). Please set 1, if sam
+                  file was generated from paired-end reads.
+ --polyA N      : polyA flag. default = 0 (false). Please set 1 if both read
+                  and reference sequences contain polyA tails.
 </pre>
 
 This site is maintained by:
