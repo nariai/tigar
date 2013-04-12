@@ -45,7 +45,9 @@ Run TIGAR
 java -jar Tigar.jar  refMrna.fasta  sample.sam --alpha_zero 0.1 ./out/sample_out.txt
 </pre>
 
-
+Please note that the current implementation of TIGAR requires huge memory for large sam/bam files.
+We will keep posted the latest version of the software for improving memory usage and
+running speed.
 
 
 
