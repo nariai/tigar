@@ -18,11 +18,12 @@ by Naoki Nariai, Osamu Hirose, Kaname Kojima and Masao Nagasaki
                   and reference sequences contain polyA tails.
 </pre>
 
-<li>
+<ul>
 Recommended pipeline to run TIGAR
-</li>
+</ul>
+<li>
 1. Prepare cDNA reference sequences in FASTA format.
-
+</li>
 refMrna.fasta
 
 
