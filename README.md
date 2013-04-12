@@ -30,19 +30,19 @@ http://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/refMrna.fa.gz
 Build bowtie2 index
 
 <pre>
-bowtie2-build refMrna.fasta ./ref/refMrna
+bowtie2-build refMrna.fa ./ref/refMrna
 </pre>
 
 Run bowtie2
 
 <pre>
-bowtie2 -p 8 -k 1000 --very-sensitive ./ref/refMrna sample.fastq > sample.sam
+bowtie2 -p 8 -k 1000 --very-sensitive ./ref/refMrna sample.fa > sample.sam
 </pre>
 
 Run TIGAR
 
 <pre>
-java -jar Tigar.jar  refMrna.fasta  sample.sam --alpha_zero 0.1 ./out/sample_out.txt
+java -jar Tigar.jar refMrna.fa sample.sam --alpha_zero 0.1 ./out/sample_out.txt
 </pre>
 
 Please note that the current implementation of TIGAR requires huge memory for large sam/bam files.
