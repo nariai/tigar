@@ -22,20 +22,28 @@ by Naoki Nariai, Osamu Hirose, Kaname Kojima and Masao Nagasaki
 
 Prepare cDNA reference sequences in FASTA format.
 
-e.g.) http://hgdownload-test.cse.ucsc.edu/goldenPath/hg19/bigZips/refMrna.fa.gz
+<pre>
+e.g.)
+http://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/refMrna.fa.gz
+</pre>
 
 Build bowtie2 index (otherwise, please use below already constructed)
 
+<pre>
 bowtie2-build refMrna.fasta ./ref/refMrna
+</pre>
 
 Run bowtie2
 
+<pre>
 bowtie2 -p 8 -k 1000 --very-sensitive ./ref/refMrna sample.fastq > sample.sam
+</pre>
 
 Run TIGAR
 
+<pre>
 java -jar Tigar.jar  refMrna.fasta  sample.sam --alpha_zero 0.1 ./out/sample_out.txt
-
+</pre>
 
 
 
