@@ -27,7 +27,7 @@ e.g.)
 http://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/refMrna.fa.gz
 </pre>
 
-Build bowtie2 index (otherwise, please use below already constructed)
+Build bowtie2 index
 
 <pre>
 bowtie2-build refMrna.fasta ./ref/refMrna
