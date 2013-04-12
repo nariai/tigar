@@ -20,19 +20,19 @@ by Naoki Nariai, Osamu Hirose, Kaname Kojima and Masao Nagasaki
 
 ## Recommended pipeline to run TIGAR
 
-- 1. Prepare cDNA reference sequences in FASTA format.
+1. Prepare cDNA reference sequences in FASTA format.
  
 refMrna.fasta
 
-- 2. Build bowtie2 index (otherwise, please use below already constructed)
+2. Build bowtie2 index (otherwise, please use below already constructed)
 
 bowtie2-build refMrna.fasta ./ref/refMrna
 
-- 3. Run bowtie2
+3. Run bowtie2
 
 bowtie2 -p 8 -k 1000 --very-sensitive ./ref/refMrna sample.fastq > sample.sam
 
-- 4. Run TIGAR
+4. Run TIGAR
 
 java -jar Tigar.jar  refMrna.fasta  sample.sam --alpha_zero 0.1 ./out/sample_out.txt
 
