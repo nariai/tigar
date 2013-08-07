@@ -3,7 +3,7 @@ TIGAR
 =====
 
 Transcript isoform abundance estimation method with gapped alignment of RNA-Seq data by variational Bayesian inference
-Naoki Nariai, Osamu Hirose, Kaname Kojima and Masao Nagasaki
+<pre>Naoki Nariai, Osamu Hirose, Kaname Kojima and Masao Nagasaki</pre>
 
 Bioinformatics (2013) doi: 10.1093/bioinformatics/btt381
 
