@@ -39,10 +39,19 @@ Run bowtie2
 bowtie2 -p 8 -k 1000 --very-sensitive ./ref/refMrna sample.fa > sample.sam
 </pre>
 
+Please note that sam files are expected to be sorted by read name.
+In order to sort sam files by read name:
+
+<pre>
+samtools view -bS sample.sam > sample.bam
+samtools sort -n sample.bam sample.prefix
+samtools view -h sample.prefix.bam > sample_sorted.sam
+</pre>
+
 Run TIGAR
 
 <pre>
-java -jar Tigar.jar refMrna.fa sample.sam --alpha_zero 0.1 ./out/sample_out.txt
+java -jar Tigar.jar refMrna.fa sample_sorted.sam --alpha_zero 0.1 ./out/sample_out.txt
 </pre>
 
 Please note that the current implementation of TIGAR requires large memory size for large sam/bam files.
