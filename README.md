@@ -3,8 +3,9 @@ TIGAR
 =====
 
 Transcript isoform abundance estimation method with gapped alignment of RNA-Seq data by variational Bayesian inference
+Naoki Nariai, Osamu Hirose, Kaname Kojima and Masao Nagasaki
 
-by Naoki Nariai, Osamu Hirose, Kaname Kojima and Masao Nagasaki
+Bioinformatics (2013) doi: 10.1093/bioinformatics/btt381
 
 <pre>
  Example: java -jar Tigar.jar FASTA SAM OUT --alpha_zero DOUBLE --is_paired INT --polyA INT
