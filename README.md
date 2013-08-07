@@ -54,6 +54,20 @@ Run TIGAR
 java -jar Tigar.jar refMrna.fa sample_sorted.sam --alpha_zero 0.1 ./out/sample_out.txt
 </pre>
 
+Output format
+
+<pre>
+ID: transcript (mRNA) ID that the program predicted
+
+LENGTH: transcript length
+
+Z: the number of expected fragments that the program assigned to the transcript
+
+FPKM: normalized expression level (Fragments Per Kilobase of exon per Million mapped fragments)
+
+THETA: estimated parameter (transcript abundance)
+</pre>
+
 Please note that the current implementation of TIGAR requires large memory size for large sam/bam files.
 We will keep posted the latest version of the software for improving memory usage and
 running speed.
