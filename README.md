@@ -29,7 +29,7 @@ e.g.) human
 http://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/refMrna.fa.gz
 
 e.g.) mouse
-http://hgdownload.soe.ucsc.edu/goldenPath/mm4/bigZips/refMrna.fa.gz
+http://hgdownload.soe.ucsc.edu/goldenPath/mm9/bigZips/refMrna.fa.gz
 </pre>
 
 Build bowtie2 index
