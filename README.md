@@ -41,7 +41,7 @@ bowtie2-build refMrna.fa ./ref/refMrna
 Run bowtie2
 
 <pre>
-bowtie2 -p 8 -k 1000 --very-sensitive ./ref/refMrna sample.fa > sample.sam
+bowtie2 -p 8 -k 1000 --very-sensitive ./ref/refMrna sample.fastq > sample.sam
 </pre>
 
 Please note that sam files are expected to be sorted by read name.
