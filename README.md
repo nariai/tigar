@@ -25,8 +25,11 @@ Bioinformatics. 29(18):2292-2299 (2013)
 Prepare cDNA reference sequences in FASTA format.
 
 <pre>
-e.g.)
+e.g.) human
 http://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/refMrna.fa.gz
+
+e.g.) mouse
+http://hgdownload.soe.ucsc.edu/goldenPath/mm4/bigZips/refMrna.fa.gz
 </pre>
 
 Build bowtie2 index
