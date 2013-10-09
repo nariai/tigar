@@ -13,10 +13,10 @@ Bioinformatics. 29(18):2292-2299 (2013)
  FASTA          : reference FASTA file
  SAM            : target SAM/BAM file
  OUT            : output file
- --alpha_zero N : tuning parameter alpha_zero
- --is_paired N  : paired-end data. default = 0 (false). Please set 1, if sam
+ --alpha_zero DOUBLE : tuning parameter alpha_zero
+ --is_paired INT  : paired-end data. default = 0 (false). Please set 1, if sam
                   file was generated from paired-end reads.
- --polyA N      : polyA flag. default = 0 (false). Please set 1 if both read
+ --polyA INT      : polyA flag. default = 0 (false). Please set 1 if both read
                   and reference sequences contain polyA tails.
 </pre>
 
