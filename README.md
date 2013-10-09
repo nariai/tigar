@@ -70,7 +70,7 @@ Z: the number of expected fragments that the program assigned to the transcript
 
 FPKM: normalized expression level (Fragments Per Kilobase of exon per Million mapped fragments)
 
-THETA: estimated parameter (transcript abundance)
+THETA: estimated parameter (transcript abundance), essentially Z divided by total mapped reads.
 </pre>
 
 Please note that the current implementation of TIGAR requires large memory size for large sam/bam files.
