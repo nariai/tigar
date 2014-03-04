@@ -35,6 +35,7 @@ http://hgdownload.soe.ucsc.edu/goldenPath/mm9/bigZips/refMrna.fa.gz
 Build bowtie2 index
 
 <pre>
+mkdir ref
 bowtie2-build refMrna.fa ./ref/refMrna
 </pre>
 
