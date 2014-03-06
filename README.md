@@ -8,6 +8,13 @@ Naoki Nariai, Osamu Hirose, Kaname Kojima and Masao Nagasaki</pre>
 
 Bioinformatics. 29(18):2292-2299 (2013)
 
+
+
+The latest version, TIGAR2, is available in the following URL:
+https://github.com/nariai/tigar2/
+
+
+
 <pre>
  Example: java -jar Tigar.jar FASTA SAM OUT --alpha_zero DOUBLE --is_paired INT --polyA INT
  FASTA          : reference FASTA file
