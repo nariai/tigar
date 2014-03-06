@@ -11,8 +11,10 @@ Bioinformatics. 29(18):2292-2299 (2013)
 
 
 The latest version, TIGAR2, is available in the following URL:
+
 https://github.com/nariai/tigar2/
 
+----------------------------------------------------------------------------------------------
 
 
 <pre>
