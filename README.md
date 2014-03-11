@@ -54,19 +54,10 @@ Run bowtie2
 bowtie2 -p 8 -k 100 --very-sensitive ./ref/refMrna sample.fastq > sample.sam
 </pre>
 
-Please note that sam files are expected to be sorted by read name.
-In order to sort sam files by read name:
-
-<pre>
-samtools view -bS sample.sam > sample.bam
-samtools sort -n sample.bam sample.prefix
-samtools view -h sample.prefix.bam > sample_sorted.sam
-</pre>
-
 Run TIGAR
 
 <pre>
-java -jar Tigar.jar refMrna.fa sample_sorted.sam --alpha_zero 0.1 sample_out.txt
+java -jar Tigar.jar refMrna.fa sample.sam --alpha_zero 0.1 sample_out.txt
 </pre>
 
 Output format
@@ -88,6 +79,15 @@ We will keep posted the latest version of the software for improving memory usag
 running speed.
 
 
+
+Please note that sam files are expected to be sorted by read name.
+In order to sort sam files by read name:
+
+<pre>
+samtools view -bS sample.sam > sample.bam
+samtools sort -n sample.bam sample.prefix
+samtools view -h sample.prefix.bam > sample_sorted.sam
+</pre>
 
 
 This site is maintained by:
