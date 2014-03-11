@@ -74,12 +74,6 @@ FPKM: normalized expression level (Fragments Per Kilobase of exon per Million ma
 THETA: estimated parameter (transcript abundance), essentially Z divided by total mapped reads.
 </pre>
 
-Please note that the current implementation of TIGAR requires large memory size for large sam/bam files.
-We will keep posted the latest version of the software for improving memory usage and
-running speed.
-
-
-
 Please note that sam files are expected to be sorted by read name.
 In order to sort sam files by read name:
 
@@ -90,11 +84,18 @@ samtools view -h sample.prefix.bam > sample_sorted.sam
 </pre>
 
 
+Please note that the current implementation of TIGAR requires large memory size for large sam/bam files.
+We will keep posted the latest version of the software for improving memory usage and
+running speed.
+
+<b>The latest version, TIGAR2, is available in the following URL:</b>
+https://github.com/nariai/tigar2/
+
 This site is maintained by:
 Naoki Nariai<br>
 <br>
 Contact:<br>
 nariai [at] megabank.tohoku.ac.jp
 
-Last updated on 2013/10/09
+Last updated on 2014/03/11
 
