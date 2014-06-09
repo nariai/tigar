@@ -8,14 +8,6 @@ Naoki Nariai, Osamu Hirose, Kaname Kojima and Masao Nagasaki</pre>
 
 Bioinformatics. 29(18):2292-2299 (2013)
 
-----------------------------------------------------------------------------------------------
-
-<b>The latest version, TIGAR2, is available in the following URL:</b>
-
-https://github.com/nariai/tigar2/
-
-----------------------------------------------------------------------------------------------
-
 
 <pre>
  Example: java -jar Tigar.jar FASTA SAM OUT --alpha_zero DOUBLE --is_paired INT --polyA INT
@@ -84,12 +76,8 @@ samtools view -h sample.prefix.bam > sample_sorted.sam
 </pre>
 
 
-Please note that the current implementation of TIGAR requires large memory size for large sam/bam files.
-We will keep posted the latest version of the software for improving memory usage and
-running speed.
-
-<b>The latest version, TIGAR2, is available in the following URL:</b>
-https://github.com/nariai/tigar2/
+Please note that this implementation of TIGAR requires large memory size for large sam/bam files.
+If you have any problems, please let me know by e-mail.
 
 This site is maintained by:
 Naoki Nariai<br>
@@ -97,5 +85,5 @@ Naoki Nariai<br>
 Contact:<br>
 nariai [at] megabank.tohoku.ac.jp
 
-Last updated on 2014/03/11
+Last updated on 2014/06/09
 
