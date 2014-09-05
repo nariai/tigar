@@ -1,3 +1,11 @@
+****************************************************
+New version, TIGAR2 is now available.
+Please download and use the latest implementation.
+
+https://github.com/nariai/tigar2
+****************************************************
+
+
 =====
 TIGAR
 =====
