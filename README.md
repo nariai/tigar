@@ -1,11 +1,11 @@
-<b>
+
 ****************************************************
-New version, TIGAR2 is now available.
-Please download and use the latest implementation.
+New version, TIGAR2, is now available.
+<b>Please download and use the latest implementation.</b>
 
 https://github.com/nariai/tigar2
 ****************************************************
-</b>
+
 
 =====
 TIGAR
