@@ -1,10 +1,11 @@
+<b>
 ****************************************************
 New version, TIGAR2 is now available.
 Please download and use the latest implementation.
 
 https://github.com/nariai/tigar2
 ****************************************************
-
+</b>
 
 =====
 TIGAR
@@ -93,5 +94,5 @@ Naoki Nariai<br>
 Contact:<br>
 nariai [at] megabank.tohoku.ac.jp
 
-Last updated on 2014/06/09
+Last updated on 2014/09/05
 
