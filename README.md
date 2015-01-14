@@ -1,6 +1,6 @@
 
 ****************************************************
-New version, TIGAR2, is now available.
+<font color=red>New version, TIGAR2, is now available.</font>
 <b>Please download and use the latest implementation.</b>
 
 https://github.com/nariai/tigar2
