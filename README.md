@@ -1,6 +1,6 @@
 
 ****************************************************
-<font color=red>New version, TIGAR2, is now available.</font>
+New version, TIGAR2, is now available.
 <b>Please download and use the latest implementation.</b>
 
 https://github.com/nariai/tigar2
@@ -29,6 +29,13 @@ Bioinformatics. 29(18):2292-2299 (2013)
  --polyA INT      : polyA flag. default = 0 (false). Please set 1 if both read
                   and reference sequences contain polyA tails.
 </pre>
+
+****************************************************
+New version, TIGAR2, is now available.
+<b>Please download and use the latest implementation.</b>
+
+https://github.com/nariai/tigar2
+****************************************************
 
 ## Recommended pipeline to run TIGAR
 
@@ -94,5 +101,5 @@ Naoki Nariai<br>
 Contact:<br>
 nariai [at] megabank.tohoku.ac.jp
 
-Last updated on 2014/09/05
+Last updated on 2015/01/14
 
